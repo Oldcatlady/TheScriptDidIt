@@ -1,0 +1,1994 @@
+[
+  {
+    "question": "Was bedeutet OOP?",
+    "options": {
+      "A": "Objektorientierte Programmierung — ein Programmierparadigma, bei dem Software als Sammlung von Objekten modelliert wird.",
+      "B": "Objekatorientierte Programmierung — eine Programmiersprache für Java-Anwendungen.",
+      "C": "Objektoptimierte Programmierung — eine Methode zur Leistungssteigerung von Programmen.",
+      "D": "Open Object Programming — ein Netzwerkprotokoll."
+    },
+    "correct": "A",
+    "explanation": "OOP ist ein Programmierparadigma. Programme werden als Sammlung zusammenarbeitender Objekte aufgebaut."
+  },
+  {
+    "question": "Was wird in OOP gebündelt?",
+    "options": {
+      "A": "Daten (Attribute) und Verhalten (Methoden), die zusammengehören.",
+      "B": "Klassen und Pakete.",
+      "C": "Variablen und Schleifen.",
+      "D": "Dateien und Datenbanken."
+    },
+    "correct": "A",
+    "explanation": "Ein Objekt vereint seine Daten (Attribute) mit den Methoden, die auf diesen Daten arbeiten."
+  },
+  {
+    "question": "Wie heißt das Gegenstück zur OOP, bei dem Funktionen lose auf Daten arbeiten?",
+    "options": {
+      "A": "Funktionale Programmierung.",
+      "B": "Deklarative Programmierung.",
+      "C": "Prozedurale Programmierung.",
+      "D": "Ereignisgesteuerte Programmierung."
+    },
+    "correct": "C",
+    "explanation": "Bei der prozeduralen Programmierung stehen Funktionen im Mittelpunkt und Daten werden getrennt verwaltet."
+  },
+  {
+    "question": "Nenne die vier Grundprinzipien der OOP.",
+    "options": {
+      "A": "Klassen, Objekte, Methoden, Attribute.",
+      "B": "Kapselung, Vererbung, Polymorphie, Abstraktion.",
+      "C": "Variablen, Schleifen, Bedingungen, Methoden.",
+      "D": "Compiler, JVM, Bytecode, Klassen."
+    },
+    "correct": "B",
+    "explanation": "Diese vier Prinzipien bilden die Grundlage der objektorientierten Programmierung."
+  },
+  {
+    "question": "Was bedeutet Kapselung?",
+    "options": {
+      "A": "Attribute werden versteckt (private), Zugriff erfolgt nur über Methoden.",
+      "B": "Mehrere Klassen werden automatisch verbunden.",
+      "C": "Methoden werden in mehrere Klassen kopiert.",
+      "D": "Objekte werden automatisch erstellt."
+    },
+    "correct": "A",
+    "explanation": "Kapselung schützt Daten vor unkontrolliertem Zugriff und erlaubt kontrollierte Änderungen."
+  },
+  {
+    "question": "Was bedeutet Vererbung?",
+    "options": {
+      "A": "Eine Klasse kann Eigenschaften/Methoden einer anderen Klasse übernehmen.",
+      "B": "Mehrere Objekte werden zu einer Klasse zusammengefasst.",
+      "C": "Methoden können nicht überschrieben werden.",
+      "D": "Attribute werden automatisch gelöscht."
+    },
+    "correct": "A",
+    "explanation": "Vererbung ermöglicht die Wiederverwendung und Erweiterung bestehenden Codes."
+  },
+  {
+    "question": "Mit welchem Schlüsselwort wird Vererbung in Java umgesetzt?",
+    "options": {
+      "A": "implements",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct": "B",
+    "explanation": "Mit dem Schlüsselwort 'extends' erbt eine Klasse von einer anderen Klasse."
+  },
+  {
+    "question": "Was bedeutet Polymorphie?",
+    "options": {
+      "A": "Objekte unterschiedlicher Klassen können über eine gemeinsame Schnittstelle einheitlich behandelt werden.",
+      "B": "Alle Klassen besitzen dieselben Attribute.",
+      "C": "Jede Klasse darf nur ein Objekt besitzen.",
+      "D": "Methoden dürfen nicht überschrieben werden."
+    },
+    "correct": "A",
+    "explanation": "Polymorphie ermöglicht es, unterschiedliche Objekte einheitlich zu verwenden."
+  },
+  {
+    "question": "Was bedeutet Abstraktion?",
+    "options": {
+      "A": "Nur die relevanten Eigenschaften eines realen Konzepts werden modelliert, Details werden versteckt.",
+      "B": "Alle Eigenschaften werden vollständig dargestellt.",
+      "C": "Jede Klasse muss abstrakt sein.",
+      "D": "Objekte können nicht erzeugt werden."
+    },
+    "correct": "A",
+    "explanation": "Abstraktion reduziert Komplexität, indem nur das Wesentliche dargestellt wird."
+  },
+  {
+    "question": "Warum bündelt man Daten und Verhalten zusammen statt getrennt zu halten?",
+    "options": {
+      "A": "Damit zusammengehörige Dinge auch im Code zusammen organisiert sind und kontrolliert verändert werden können.",
+      "B": "Damit Programme automatisch schneller werden.",
+      "C": "Damit weniger Speicher benötigt wird.",
+      "D": "Damit keine Klassen mehr notwendig sind."
+    },
+    "correct": "A",
+    "explanation": "Dadurch wird der Code übersichtlicher, sicherer und leichter wartbar."
+  },
+  {
+    "question": "Ist OOP eine Programmiersprache oder ein Paradigma?",
+    "options": {
+      "A": "Eine Programmiersprache.",
+      "B": "Ein Paradigma — ein Programmieransatz, keine konkrete Sprache.",
+      "C": "Ein Betriebssystem.",
+      "D": "Ein Compiler."
+    },
+    "correct": "B",
+    "explanation": "OOP beschreibt eine Art zu programmieren und ist keine eigene Programmiersprache."
+  },
+  {
+    "question": "Nenne eine weitere objektorientierte Sprache außer Java.",
+    "options": {
+      "A": "Python.",
+      "B": "HTML.",
+      "C": "CSS.",
+      "D": "SQL."
+    },
+    "correct": "A",
+    "explanation": "Auch Python, C# und C++ unterstützen objektorientierte Programmierung."
+  },
+  {
+    "question": "Was ist der Vorteil von Kapselung in Bezug auf Fehler?",
+    "options": {
+      "A": "Man kann in Settern Prüfungen einbauen, die ungültige Werte verhindern.",
+      "B": "Programme enthalten dadurch grundsätzlich keine Fehler mehr.",
+      "C": "Objekte werden automatisch gespeichert.",
+      "D": "Methoden können nicht mehr verändert werden."
+    },
+    "correct": "A",
+    "explanation": "Setter können Eingaben prüfen und ungültige Werte verhindern."
+  },
+  {
+    "question": "Baut Polymorphie/Vererbung direkt auf Klassen und Objekten auf?",
+    "options": {
+      "A": "Ja, sie setzen das Verständnis von Klassen und Objekten voraus.",
+      "B": "Nein, sie funktionieren unabhängig davon.",
+      "C": "Nur Vererbung basiert auf Klassen.",
+      "D": "Nur Polymorphie basiert auf Objekten."
+    },
+    "correct": "A",
+    "explanation": "Vererbung und Polymorphie bauen auf den Grundkonzepten Klassen und Objekte auf."
+  },
+  {
+    "question": "Was ist ein \"Bauplan\" in der OOP-Analogie?",
+    "options": {
+      "A": "Die Klasse.",
+      "B": "Das Objekt.",
+      "C": "Die Methode.",
+      "D": "Das Attribut."
+    },
+    "correct": "A",
+    "explanation": "Die Klasse beschreibt den Aufbau und das Verhalten zukünftiger Objekte."
+  },
+  {
+    "question": "Was ist das \"gebaute Ding\" in der OOP-Analogie?",
+    "options": {
+      "A": "Das Objekt.",
+      "B": "Die Klasse.",
+      "C": "Die Methode.",
+      "D": "Der Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Ein Objekt ist eine konkrete Instanz einer Klasse."
+  },
+  {
+    "question": "Warum ist OOP für größere Softwareprojekte hilfreich?",
+    "options": {
+      "A": "Weil sie Struktur, Wiederverwendbarkeit und übersichtliche Verantwortlichkeiten schafft.",
+      "B": "Weil Programme dadurch keine Fehler mehr enthalten.",
+      "C": "Weil Klassen automatisch erstellt werden.",
+      "D": "Weil Variablen nicht mehr benötigt werden."
+    },
+    "correct": "A",
+    "explanation": "OOP erleichtert die Wartung und Erweiterung großer Programme."
+  },
+  {
+    "question": "Was bedeutet \"Instanz\" im Kontext von OOP?",
+    "options": {
+      "A": "Ein anderes Wort für Objekt — ein konkret erzeugtes Exemplar einer Klasse.",
+      "B": "Ein anderes Wort für Klasse.",
+      "C": "Eine Methode innerhalb einer Klasse.",
+      "D": "Ein Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Eine Instanz ist ein tatsächlich erzeugtes Objekt einer Klasse."
+  },
+  {
+    "question": "Ist eine Klasse zur Laufzeit im Speicher als Objekt vorhanden?",
+    "options": {
+      "A": "Nein, die Klasse ist nur der Bauplan im Quellcode; Objekte existieren zur Laufzeit im Speicher.",
+      "B": "Ja, jede Klasse ist automatisch ein Objekt.",
+      "C": "Nur abstrakte Klassen existieren im Speicher.",
+      "D": "Nur Interfaces werden als Objekte gespeichert."
+    },
+    "correct": "A",
+    "explanation": "Erst beim Erzeugen einer Instanz entsteht ein Objekt im Speicher."
+  },
+  {
+    "question": "Was ist die Grundvoraussetzung, bevor man Vererbung und Polymorphie versteht?",
+    "options": {
+      "A": "Ein solides Verständnis von Klassen, Objekten und Methoden.",
+      "B": "Kenntnisse über Datenbanken.",
+      "C": "Das Beherrschen von SQL.",
+      "D": "Das Verständnis von Netzwerken."
+    },
+    "correct": "A",
+    "explanation": "Klassen, Objekte und Methoden bilden die Grundlage für die erweiterten OOP-Konzepte."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen Klasse und Objekt in einem Satz?",
+    "options": {
+      "A": "Die Klasse ist der Bauplan, das Objekt ist das daraus gebaute, konkrete Ding.",
+      "B": "Die Klasse ist das fertige Objekt, der Bauplan wird daraus erzeugt.",
+      "C": "Klassen und Objekte sind zwei Begriffe für dasselbe.",
+      "D": "Eine Klasse speichert nur Daten, ein Objekt nur Methoden."
+    },
+    "correct": "A",
+    "explanation": "Eine Klasse beschreibt den Aufbau, ein Objekt ist eine konkrete Instanz dieser Beschreibung."
+  },
+  {
+    "question": "Wie oft steht eine Klasse im Quellcode?",
+    "options": {
+      "A": "Nur einmal.",
+      "B": "Für jedes Objekt einmal.",
+      "C": "Mindestens zweimal.",
+      "D": "Beliebig oft innerhalb derselben Datei."
+    },
+    "correct": "A",
+    "explanation": "Eine Klasse wird einmal definiert und kann beliebig oft verwendet werden."
+  },
+  {
+    "question": "Wie oft können Objekte einer Klasse zur Laufzeit erzeugt werden?",
+    "options": {
+      "A": "Nur einmal.",
+      "B": "Genau so oft wie die Klasse im Quellcode vorkommt.",
+      "C": "Beliebig oft.",
+      "D": "Maximal zehnmal."
+    },
+    "correct": "C",
+    "explanation": "Aus einer Klasse können beliebig viele Objekte erzeugt werden."
+  },
+  {
+    "question": "Mit welchem Schlüsselwort wird ein Objekt erzeugt?",
+    "options": {
+      "A": "create",
+      "B": "new",
+      "C": "class",
+      "D": "extends"
+    },
+    "correct": "B",
+    "explanation": "Das Schlüsselwort 'new' erzeugt ein neues Objekt im Speicher."
+  },
+  {
+    "question": "Was passiert, wenn man new Auto() aufruft?",
+    "options": {
+      "A": "Ein neues Auto-Objekt wird im Speicher (Heap) erzeugt und der Konstruktor wird ausgeführt.",
+      "B": "Die Klasse Auto wird neu kompiliert.",
+      "C": "Alle Auto-Objekte werden zurückgesetzt.",
+      "D": "Es wird nur eine Variable angelegt."
+    },
+    "correct": "A",
+    "explanation": "Beim Aufruf von 'new' wird ein neues Objekt erstellt und der Konstruktor initialisiert es."
+  },
+  {
+    "question": "Sind zwei Objekte derselben Klasse voneinander unabhängig?",
+    "options": {
+      "A": "Ja, jedes Objekt hat seinen eigenen Speicherplatz für seine Attribute.",
+      "B": "Nein, alle Objekte teilen sich dieselben Attribute.",
+      "C": "Nur wenn sie unterschiedliche Namen haben.",
+      "D": "Nur bei abstrakten Klassen."
+    },
+    "correct": "A",
+    "explanation": "Jedes Objekt besitzt seine eigenen Attributwerte im Speicher."
+  },
+  {
+    "question": "Wenn ich die Farbe von meinAuto ändere, ändert sich dann deinAuto mit?",
+    "options": {
+      "A": "Ja, weil beide aus derselben Klasse stammen.",
+      "B": "Nein, beide Objekte sind unabhängig, auch wenn sie aus derselben Klasse stammen.",
+      "C": "Nur wenn beide dieselbe Farbe hatten.",
+      "D": "Nur wenn die Klasse vererbt wurde."
+    },
+    "correct": "B",
+    "explanation": "Jedes Objekt besitzt eigene Attributwerte. Änderungen betreffen nur dieses Objekt."
+  },
+  {
+    "question": "Wie lautet der Merksatz zu Klasse vs. Objekt?",
+    "options": {
+      "A": "Eine Klasse definiert, ein Objekt existiert.",
+      "B": "Eine Klasse speichert, ein Objekt programmiert.",
+      "C": "Eine Klasse erzeugt automatisch Objekte.",
+      "D": "Ein Objekt beschreibt die Klasse."
+    },
+    "correct": "A",
+    "explanation": "Die Klasse beschreibt den Aufbau, das Objekt ist die konkrete Umsetzung."
+  },
+  {
+    "question": "Was beschreibt eine Klasse inhaltlich?",
+    "options": {
+      "A": "Welche Attribute und Methoden jedes Objekt dieser Klasse haben wird.",
+      "B": "Nur die Attribute eines einzelnen Objekts.",
+      "C": "Den aktuellen Speicherinhalt aller Objekte.",
+      "D": "Nur den Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Die Klasse legt fest, welche Eigenschaften und Funktionen ihre Objekte besitzen."
+  },
+  {
+    "question": "Kann man in einem Bauplan (Klasse) wohnen (im übertragenen Sinn nutzen)?",
+    "options": {
+      "A": "Ja, sobald die Klasse kompiliert wurde.",
+      "B": "Nein, erst das gebaute Haus (Objekt) kann man nutzen — der Plan selbst ist nur die Beschreibung.",
+      "C": "Ja, wenn die Klasse public ist.",
+      "D": "Nur bei abstrakten Klassen."
+    },
+    "correct": "B",
+    "explanation": "Die Klasse ist nur die Vorlage. Nutzbar ist erst das erzeugte Objekt."
+  },
+  {
+    "question": "Wie nennt man die Erzeugung eines Objekts noch, außer \"Objekt erzeugen\"?",
+    "options": {
+      "A": "Instanziierung / eine Instanz erzeugen.",
+      "B": "Kompilierung.",
+      "C": "Vererbung.",
+      "D": "Kapselung."
+    },
+    "correct": "A",
+    "explanation": "Der Fachbegriff für das Erzeugen eines Objekts lautet Instanziierung."
+  },
+  {
+    "question": "Woran erkennt man im Code, dass ein Objekt erzeugt wird?",
+    "options": {
+      "A": "Am Schlüsselwort new gefolgt vom Klassennamen und Klammern, z. B. new Person(...).",
+      "B": "Am Schlüsselwort class.",
+      "C": "An einer import-Anweisung.",
+      "D": "An einer Methode ohne Rückgabewert."
+    },
+    "correct": "A",
+    "explanation": "Das Schlüsselwort 'new' kennzeichnet die Erzeugung eines neuen Objekts."
+  },
+  {
+    "question": "Was passiert mit Auto meinAuto = new Auto(); auf der linken Seite des =?",
+    "options": {
+      "A": "Eine Variable meinAuto wird deklariert, die eine Referenz auf das neu erzeugte Objekt speichert.",
+      "B": "Ein neues Objekt wird erzeugt.",
+      "C": "Die Klasse Auto wird kopiert.",
+      "D": "Der Konstruktor wird erneut definiert."
+    },
+    "correct": "A",
+    "explanation": "Links wird nur die Referenzvariable angelegt. Das Objekt entsteht rechts durch 'new'."
+  },
+  {
+    "question": "Ist Auto in Auto meinAuto = new Auto(); die Klasse oder das Objekt?",
+    "options": {
+      "A": "Das erste Auto (Typangabe) bezieht sich auf die Klasse; new Auto() erzeugt das Objekt.",
+      "B": "Beide Auto bezeichnen das Objekt.",
+      "C": "Beide Auto bezeichnen die Variable.",
+      "D": "Das erste Auto ist der Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Links steht der Datentyp (die Klasse), rechts wird eine Instanz dieser Klasse erzeugt."
+  },
+  {
+    "question": "Kann eine Klasse Attribute mit Startwerten \"vorbelegen\", die dann für jedes Objekt gelten?",
+    "options": {
+      "A": "Ja, über Default-Werte oder direkte Initialisierung im Attribut, aber jedes Objekt hat trotzdem seine eigene Kopie.",
+      "B": "Nein, Startwerte sind in Klassen nicht möglich.",
+      "C": "Nur Konstruktoren dürfen Werte enthalten.",
+      "D": "Alle Objekte teilen sich immer dieselben Attributwerte."
+    },
+    "correct": "A",
+    "explanation": "Jedes Objekt erhält seine eigenen Attributwerte, auch wenn dieselben Startwerte verwendet werden."
+  },
+  {
+    "question": "Was bedeutet es, wenn zwei Variablen auf dasselbe Objekt zeigen?",
+    "options": {
+      "A": "Änderungen über die eine Variable sind auch über die andere sichtbar, da beide auf dasselbe Objekt im Speicher verweisen.",
+      "B": "Es existieren automatisch zwei Objekte.",
+      "C": "Beide Variablen werden zu einer zusammengefasst.",
+      "D": "Das Objekt wird dadurch kopiert."
+    },
+    "correct": "A",
+    "explanation": "Beide Variablen enthalten dieselbe Referenz und greifen auf dasselbe Objekt zu."
+  },
+  {
+    "question": "Ist die Klasse selbst veränderbar zur Laufzeit (z. B. neue Attribute hinzufügen)?",
+    "options": {
+      "A": "Ja, beliebig oft.",
+      "B": "Nein, die Struktur einer Klasse steht zur Compile-Zeit fest.",
+      "C": "Nur wenn mehrere Objekte existieren.",
+      "D": "Nur mit dem Schlüsselwort new."
+    },
+    "correct": "B",
+    "explanation": "Die Klassenstruktur wird beim Kompilieren festgelegt und kann zur Laufzeit nicht erweitert werden."
+  },
+  {
+    "question": "Was unterscheidet zwei Objekte, wenn beide exakt dieselben Attributwerte haben?",
+    "options": {
+      "A": "Sie sind trotzdem zwei unterschiedliche Objekte im Speicher, auch wenn ihre Werte zufällig gleich sind.",
+      "B": "Nichts, sie werden automatisch zu einem Objekt.",
+      "C": "Sie besitzen dieselbe Speicheradresse.",
+      "D": "Sie werden vom Compiler gelöscht."
+    },
+    "correct": "A",
+    "explanation": "Gleiche Attributwerte bedeuten nicht, dass es dasselbe Objekt ist."
+  },
+  {
+    "question": "Woher \"weiß\" ein Objekt, welche Methoden es hat?",
+    "options": {
+      "A": "Von seiner Klasse — die Methoden sind in der Klasse definiert, jedes Objekt dieser Klasse kann sie nutzen.",
+      "B": "Von der JVM beim Programmstart.",
+      "C": "Von anderen Objekten derselben Klasse.",
+      "D": "Aus dem Arbeitsspeicher."
+    },
+    "correct": "A",
+    "explanation": "Methoden werden in der Klasse definiert und stehen allen Instanzen dieser Klasse zur Verfügung."
+  },
+  {
+    "question": "Kann man aus derselben Klasse Objekte mit unterschiedlichen Attributwerten erzeugen?",
+    "options": {
+      "A": "Ja, z. B. über unterschiedliche Werte im Konstruktoraufruf.",
+      "B": "Nein, alle Objekte einer Klasse müssen dieselben Werte besitzen.",
+      "C": "Nur wenn die Klasse abstrakt ist.",
+      "D": "Nur mit mehreren Klassen."
+    },
+    "correct": "A",
+    "explanation": "Jede Instanz kann eigene Werte besitzen, obwohl alle auf derselben Klasse basieren."
+  },
+  {
+    "question": "Wie nennt man Variablen, die zu einer Klasse gehören, noch?",
+    "options": {
+      "A": "Attribute, Felder oder Instanzvariablen.",
+      "B": "Methoden oder Funktionen.",
+      "C": "Parameter oder Argumente.",
+      "D": "Konstruktoren oder Klassenvariablen."
+    },
+    "correct": "A",
+    "explanation": "Attribute sind Variablen, die den Zustand eines Objekts speichern. Sie gehören zur Klasse und damit zu ihren Instanzen."
+  },
+  {
+    "question": "Wo werden Attribute typischerweise in der Klasse deklariert?",
+    "options": {
+      "A": "Direkt im Klassenkörper, üblicherweise oben, außerhalb von Methoden.",
+      "B": "Nur innerhalb des Konstruktors.",
+      "C": "Immer außerhalb der Klasse.",
+      "D": "Nur innerhalb von Schleifen."
+    },
+    "correct": "A",
+    "explanation": "Attribute werden innerhalb der Klasse, aber außerhalb von Methoden und Konstruktoren definiert."
+  },
+  {
+    "question": "Welche Sichtbarkeit haben Attribute üblicherweise, wenn man Kapselung befolgt?",
+    "options": {
+      "A": "public",
+      "B": "protected",
+      "C": "private",
+      "D": "static"
+    },
+    "correct": "C",
+    "explanation": "private verhindert direkten Zugriff von außen und unterstützt das Prinzip der Kapselung."
+  },
+  {
+    "question": "Was bedeutet private bei einem Attribut?",
+    "options": {
+      "A": "Es kann nur innerhalb der eigenen Klasse direkt gelesen/geschrieben werden.",
+      "B": "Es kann von jeder Klasse verändert werden.",
+      "C": "Es wird automatisch gelöscht.",
+      "D": "Es kann nur von Unterklassen genutzt werden."
+    },
+    "correct": "A",
+    "explanation": "Private Attribute sind vor direktem Zugriff außerhalb ihrer Klasse geschützt."
+  },
+  {
+    "question": "Hat jedes Objekt einer Klasse seinen eigenen Speicher für Attribute?",
+    "options": {
+      "A": "Ja, jedes Objekt bekommt eigene Kopien der Attribute.",
+      "B": "Nein, alle Objekte teilen sich dieselben Attribute.",
+      "C": "Nur das erste Objekt besitzt Attribute.",
+      "D": "Nur Klassen besitzen Speicher für Attribute."
+    },
+    "correct": "A",
+    "explanation": "Jede Instanz besitzt ihren eigenen Zustand mit eigenen Attributwerten."
+  },
+  {
+    "question": "Was ist der Default-Wert eines int-Attributs ohne explizite Zuweisung?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "null",
+      "D": "false"
+    },
+    "correct": "A",
+    "explanation": "Numerische Ganzzahltypen wie int erhalten als Standardwert 0."
+  },
+  {
+    "question": "Was ist der Default-Wert eines boolean-Attributs ohne explizite Zuweisung?",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "null",
+      "D": "0"
+    },
+    "correct": "B",
+    "explanation": "Ein boolean-Attribut hat in Java standardmäßig den Wert false."
+  },
+  {
+    "question": "Was ist der Default-Wert eines String-Attributs ohne explizite Zuweisung?",
+    "options": {
+      "A": "\"\" (leerer String)",
+      "B": "null",
+      "C": "false",
+      "D": "0"
+    },
+    "correct": "B",
+    "explanation": "Objektreferenzen wie String haben standardmäßig den Wert null, solange kein Objekt zugewiesen wurde."
+  },
+  {
+    "question": "Warum darf man auf ein private-Attribut nicht direkt von außen zugreifen (objekt.attribut)?",
+    "options": {
+      "A": "Weil Kapselung den direkten Zugriff verhindern soll — es gibt einen Compilerfehler.",
+      "B": "Weil Attribute grundsätzlich nicht gelesen werden dürfen.",
+      "C": "Weil private nur für Methoden verwendet werden darf.",
+      "D": "Weil Objekte keine Attribute besitzen."
+    },
+    "correct": "A",
+    "explanation": "Der Zugriff wird durch private eingeschränkt. Meist erfolgt der Zugriff kontrolliert über Getter und Setter."
+  },
+  {
+    "question": "Was besteht eine Attributdeklaration aus?",
+    "options": {
+      "A": "Sichtbarkeit, Typ und Name, z. B. private String name;.",
+      "B": "Nur aus einem Namen.",
+      "C": "Nur aus einem Datentyp.",
+      "D": "Aus Klasse und Methode."
+    },
+    "correct": "A",
+    "explanation": "Eine Attributdeklaration beschreibt Zugriffsrecht, Datentyp und Bezeichnung."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen einem Attribut und einer lokalen Variable?",
+    "options": {
+      "A": "Attribute gehören zum Objekt und bleiben über Methodenaufrufe hinweg erhalten; lokale Variablen existieren nur während eines Methodenaufrufs.",
+      "B": "Attribute existieren nur innerhalb von Methoden.",
+      "C": "Lokale Variablen gehören immer zur Klasse.",
+      "D": "Es gibt keinen Unterschied."
+    },
+    "correct": "A",
+    "explanation": "Attribute speichern den Zustand eines Objekts dauerhaft, lokale Variablen nur temporäre Werte."
+  },
+  {
+    "question": "Wo im Speicher liegen die Attribute eines Objekts?",
+    "options": {
+      "A": "Im Heap, als Teil des Objekts.",
+      "B": "Im Stack als Teil jeder Methode.",
+      "C": "Nur im Quellcode.",
+      "D": "Im Compiler."
+    },
+    "correct": "A",
+    "explanation": "Objekte und ihre Instanzattribute werden in Java typischerweise im Heap gespeichert."
+  },
+  {
+    "question": "Kann ein Attribut auch public sein?",
+    "options": {
+      "A": "Ja, technisch möglich, aber unüblich, da es Kapselung verletzt.",
+      "B": "Nein, public Attribute sind verboten.",
+      "C": "Nur bei abstrakten Klassen.",
+      "D": "Nur bei Methoden."
+    },
+    "correct": "A",
+    "explanation": "Public Attribute sind erlaubt, aber private Attribute mit Zugriffsmethoden sind meistens besser."
+  },
+  {
+    "question": "Was passiert mit den Attributwerten, wenn ein neues Objekt erzeugt wird, bevor der Konstruktor läuft?",
+    "options": {
+      "A": "Sie haben ihre Default-Werte, bis der Konstruktor (oder andere Zuweisungen) sie setzt.",
+      "B": "Sie erhalten automatisch zufällige Werte.",
+      "C": "Sie werden aus anderen Objekten kopiert.",
+      "D": "Sie existieren noch nicht."
+    },
+    "correct": "A",
+    "explanation": "Vor der Initialisierung durch den Konstruktor gelten die Standardwerte der Datentypen."
+  },
+  {
+    "question": "Kann man mehrere Attribute in einer Klasse haben?",
+    "options": {
+      "A": "Ja, beliebig viele, jedes mit eigenem Typ und Namen.",
+      "B": "Nein, eine Klasse darf nur ein Attribut besitzen.",
+      "C": "Nur primitive Attribute sind erlaubt.",
+      "D": "Nur Methoden können mehrfach vorkommen."
+    },
+    "correct": "A",
+    "explanation": "Eine Klasse kann beliebig viele Attribute besitzen."
+  },
+  {
+    "question": "Was ist ein typisches Beispiel für ein Attribut in einer Klasse Person?",
+    "options": {
+      "A": "private String name; oder private int alter;",
+      "B": "public void laufen()",
+      "C": "new Person();",
+      "D": "class Person {}"
+    },
+    "correct": "A",
+    "explanation": "Name und Alter beschreiben den Zustand einer Person und sind daher typische Attribute."
+  },
+  {
+    "question": "Verändert sich ein Attribut, wenn man eine Methode aufruft, die es liest, aber nicht verändert?",
+    "options": {
+      "A": "Nein, reines Lesen verändert den Wert nicht.",
+      "B": "Ja, jeder Zugriff erhöht den Wert.",
+      "C": "Ja, Attribute werden automatisch neu erzeugt.",
+      "D": "Nur private Attribute ändern sich."
+    },
+    "correct": "A",
+    "explanation": "Eine lesende Methode greift nur auf den Wert zu, ohne den Zustand des Objekts zu verändern."
+  },
+  {
+    "question": "Können Attribute auch Objekte anderer Klassen sein (nicht nur primitive Typen)?",
+    "options": {
+      "A": "Ja, z. B. private Adresse adresse; in einer Person-Klasse.",
+      "B": "Nein, Attribute dürfen nur Zahlen speichern.",
+      "C": "Nur Methoden können Objekte enthalten.",
+      "D": "Nur Strings sind erlaubt."
+    },
+    "correct": "A",
+    "explanation": "Objekte können Referenzen auf andere Objekte als Attribute besitzen."
+  },
+  {
+    "question": "Was passiert, wenn zwei Objekte derselben Klasse unterschiedliche Attributwerte haben?",
+    "options": {
+      "A": "Das ist normal — jedes Objekt hat seinen eigenen, unabhängigen Zustand.",
+      "B": "Die Klasse wird automatisch dupliziert.",
+      "C": "Ein Objekt überschreibt das andere.",
+      "D": "Das Programm erzeugt einen Fehler."
+    },
+    "correct": "A",
+    "explanation": "Unterschiedliche Zustände sind ein zentraler Vorteil von Objekten."
+  },
+  {
+    "question": "Warum spricht man auch von \"Instanzvariablen\"?",
+    "options": {
+      "A": "Weil jede Instanz (jedes Objekt) ihre eigene Version dieser Variable besitzt.",
+      "B": "Weil Variablen nur innerhalb von Klassen existieren.",
+      "C": "Weil sie automatisch statisch sind.",
+      "D": "Weil sie keine Werte speichern können."
+    },
+    "correct": "A",
+    "explanation": "Der Begriff Instanzvariable betont, dass jedes Objekt eine eigene Kopie besitzt."
+  },
+  {
+    "question": "Was ist ein Konstruktor?",
+    "options": {
+      "A": "Eine spezielle Methode, die beim Erzeugen eines Objekts mit new automatisch aufgerufen wird.",
+      "B": "Eine Methode, die ein Objekt wieder aus dem Speicher entfernt.",
+      "C": "Eine Variable, die den Zustand einer Klasse speichert.",
+      "D": "Eine Klasse, die andere Klassen erzeugt."
+    },
+    "correct": "A",
+    "explanation": "Ein Konstruktor initialisiert ein neues Objekt und wird automatisch beim Einsatz von new ausgeführt."
+  },
+  {
+    "question": "Wie muss der Name eines Konstruktors lauten?",
+    "options": {
+      "A": "Genau wie der Klassenname.",
+      "B": "Immer constructor.",
+      "C": "Immer init.",
+      "D": "Beliebig, solange er private ist."
+    },
+    "correct": "A",
+    "explanation": "In Java muss ein Konstruktor exakt denselben Namen wie die Klasse besitzen."
+  },
+  {
+    "question": "Hat ein Konstruktor einen Rückgabetyp?",
+    "options": {
+      "A": "Nein, auch nicht void — Konstruktoren haben keinen Rückgabetyp.",
+      "B": "Ja, immer den Klassennamen.",
+      "C": "Ja, immer void.",
+      "D": "Nur bei öffentlichen Konstruktoren."
+    },
+    "correct": "A",
+    "explanation": "Ein Konstruktor unterscheidet sich von Methoden dadurch, dass er keinen Rückgabetyp besitzt."
+  },
+  {
+    "question": "Wozu dient ein Konstruktor typischerweise?",
+    "options": {
+      "A": "Um die Attribute des neuen Objekts mit Startwerten zu befüllen.",
+      "B": "Um eine Klasse während der Laufzeit umzubenennen.",
+      "C": "Um Methoden automatisch zu löschen.",
+      "D": "Um andere Programme zu starten."
+    },
+    "correct": "A",
+    "explanation": "Konstruktoren sorgen dafür, dass neue Objekte einen definierten Anfangszustand erhalten."
+  },
+  {
+    "question": "Wird ein Konstruktor manuell wie eine normale Methode aufgerufen?",
+    "options": {
+      "A": "Nein, er wird automatisch aufgerufen, wenn man new KlassenName(...) schreibt.",
+      "B": "Ja, über objekt.Konstruktor().",
+      "C": "Ja, aber nur innerhalb der main-Methode.",
+      "D": "Nein, Konstruktoren können niemals ausgeführt werden."
+    },
+    "correct": "A",
+    "explanation": "Der Aufruf erfolgt automatisch durch die Objekterzeugung mit new."
+  },
+  {
+    "question": "Was bedeutet this in einem Konstruktor?",
+    "options": {
+      "A": "Es bezieht sich auf das aktuelle Objekt, das gerade erzeugt/bearbeitet wird.",
+      "B": "Es bezeichnet die übergeordnete Klasse.",
+      "C": "Es erzeugt ein neues Objekt.",
+      "D": "Es löscht das aktuelle Objekt."
+    },
+    "correct": "A",
+    "explanation": "this ist eine Referenz auf die aktuelle Instanz eines Objekts."
+  },
+  {
+    "question": "Warum braucht man this.name = name;, wenn Parameter und Attribut gleich heißen?",
+    "options": {
+      "A": "Um zwischen dem Attribut (this.name) und dem Parameter (name) zu unterscheiden.",
+      "B": "Damit Java den Konstruktor schneller ausführt.",
+      "C": "Damit automatisch ein neues Attribut entsteht.",
+      "D": "Damit die Klasse vererbt werden kann."
+    },
+    "correct": "A",
+    "explanation": "this.name meint das Attribut des Objekts, name ohne this den Parameter."
+  },
+  {
+    "question": "Was passiert, wenn man in diesem Fall this weglässt und nur name = name; schreibt?",
+    "options": {
+      "A": "Der Parameter wird sich selbst zugewiesen, das Attribut bleibt unverändert (logischer Fehler).",
+      "B": "Das Attribut wird automatisch gesetzt.",
+      "C": "Java erzeugt einen Compilerfehler.",
+      "D": "Das Objekt wird gelöscht."
+    },
+    "correct": "A",
+    "explanation": "Ohne this werden beide Namen als Parameter interpretiert, dadurch bleibt das Attribut unverändert."
+  },
+  {
+    "question": "Was ist ein Parameter im Kontext eines Konstruktors?",
+    "options": {
+      "A": "Ein Wert, der beim Aufruf von new KlassenName(...) übergeben wird.",
+      "B": "Eine Variable, die immer im Heap gespeichert wird.",
+      "C": "Eine Methode der Klasse.",
+      "D": "Ein Synonym für Objekt."
+    },
+    "correct": "A",
+    "explanation": "Parameter ermöglichen es, beim Erzeugen eines Objekts Werte mitzugeben."
+  },
+  {
+    "question": "Was passiert Schritt 1 bei new Person(\"Anna\", 30)?",
+    "options": {
+      "A": "Java reserviert Speicher für ein neues Person-Objekt im Heap.",
+      "B": "Java löscht alle bisherigen Person-Objekte.",
+      "C": "Java erstellt eine neue Klasse Person.",
+      "D": "Java beendet das Programm."
+    },
+    "correct": "A",
+    "explanation": "Zuerst wird Speicherplatz für das neue Objekt reserviert."
+  },
+  {
+    "question": "Was passiert Schritt 2 bei new Person(\"Anna\", 30)?",
+    "options": {
+      "A": "Der Konstruktor läuft, die Parameter werden mit den übergebenen Werten befüllt.",
+      "B": "Die Klasse wird neu kompiliert.",
+      "C": "Das Objekt wird sofort gelöscht.",
+      "D": "Die Attribute werden ignoriert."
+    },
+    "correct": "A",
+    "explanation": "Der Konstruktor erhält die Werte und kann damit das Objekt initialisieren."
+  },
+  {
+    "question": "Was passiert Schritt 3 bei new Person(\"Anna\", 30)?",
+    "options": {
+      "A": "Die Attribute des Objekts werden über this.attribut = parameter gesetzt.",
+      "B": "Die Klasse wird in eine Methode umgewandelt.",
+      "C": "Neue Klassen werden automatisch erzeugt.",
+      "D": "Der Speicher wird freigegeben."
+    },
+    "correct": "A",
+    "explanation": "Der Konstruktor weist den Attributen des neuen Objekts ihre Anfangswerte zu."
+  },
+  {
+    "question": "Was passiert Schritt 4 bei new Person(\"Anna\", 30)?",
+    "options": {
+      "A": "Das fertige Objekt wird zurückgegeben und z. B. einer Variablen zugewiesen.",
+      "B": "Die Klasse wird automatisch gelöscht.",
+      "C": "Der Konstruktor wird erneut ausgeführt.",
+      "D": "Die Attribute werden wieder auf Standardwerte gesetzt."
+    },
+    "correct": "A",
+    "explanation": "Nach der Initialisierung kann die Referenz auf das Objekt gespeichert und verwendet werden."
+  },
+  {
+    "question": "Kann eine Klasse mehrere Konstruktoren haben?",
+    "options": {
+      "A": "Ja, das nennt man Konstruktor-Überladung (Overloading), solange sich die Parameterlisten unterscheiden.",
+      "B": "Nein, jede Klasse darf nur einen Konstruktor besitzen.",
+      "C": "Nur wenn sie abstrakt ist.",
+      "D": "Nur private Klassen dürfen mehrere Konstruktoren haben."
+    },
+    "correct": "A",
+    "explanation": "Durch Overloading können Objekte auf verschiedene Arten erzeugt werden."
+  },
+  {
+    "question": "Was passiert, wenn man keinen Konstruktor selbst schreibt?",
+    "options": {
+      "A": "Java stellt automatisch einen leeren Standardkonstruktor ohne Parameter bereit.",
+      "B": "Die Klasse kann nicht kompiliert werden.",
+      "C": "Java erstellt automatisch mehrere Konstruktoren.",
+      "D": "Alle Attribute werden gelöscht."
+    },
+    "correct": "A",
+    "explanation": "Wenn kein eigener Konstruktor vorhanden ist, erzeugt Java einen parameterlosen Standardkonstruktor."
+  },
+  {
+    "question": "Verschwindet der automatische Standardkonstruktor, sobald man selbst einen Konstruktor schreibt?",
+    "options": {
+      "A": "Ja, sobald ein eigener Konstruktor existiert, wird kein automatischer mehr bereitgestellt.",
+      "B": "Nein, Java erstellt immer beide.",
+      "C": "Nur bei privaten Konstruktoren.",
+      "D": "Nur bei Vererbung."
+    },
+    "correct": "A",
+    "explanation": "Sobald ein eigener Konstruktor existiert, muss ein Standardkonstruktor bei Bedarf selbst geschrieben werden."
+  },
+  {
+    "question": "Kann man this auch verwenden, um eine andere Methode desselben Objekts aufzurufen?",
+    "options": {
+      "A": "Ja, z. B. this.methodenName().",
+      "B": "Nein, this funktioniert nur bei Attributen.",
+      "C": "Nur in statischen Methoden.",
+      "D": "Nur außerhalb von Klassen."
+    },
+    "correct": "A",
+    "explanation": "this kann verwendet werden, um auf Methoden und Attribute des aktuellen Objekts zuzugreifen."
+  },
+  {
+    "question": "Ist der Konstruktor Teil der Klasse oder des Objekts?",
+    "options": {
+      "A": "Er ist in der Klasse definiert, wird aber bei jeder Objekterzeugung für das jeweilige Objekt ausgeführt.",
+      "B": "Er gehört ausschließlich zum Objekt.",
+      "C": "Er gehört nur zum Compiler.",
+      "D": "Er existiert unabhängig von Klassen."
+    },
+    "correct": "A",
+    "explanation": "Der Konstruktor ist Bestandteil der Klassendefinition, wirkt aber beim Erzeugen jeder Instanz."
+  },
+  {
+    "question": "Warum ist ein Konstruktor wichtig für sinnvolle Startzustände?",
+    "options": {
+      "A": "Damit ein Objekt nicht mit unsinnigen Default-Werten (z. B. null, 0) \"leer\" beginnt.",
+      "B": "Damit Klassen nicht kompiliert werden müssen.",
+      "C": "Damit Methoden automatisch vererbt werden.",
+      "D": "Damit kein Speicher verwendet wird."
+    },
+    "correct": "A",
+    "explanation": "Konstruktoren stellen sicher, dass Objekte direkt nach ihrer Erzeugung gültige Werte besitzen."
+  },
+  {
+    "question": "Kann ein Konstruktor auch Logik/Berechnungen enthalten, nicht nur Zuweisungen?",
+    "options": {
+      "A": "Ja, z. B. Validierungen oder abgeleitete Werte berechnen.",
+      "B": "Nein, Konstruktoren dürfen nur Attribute kopieren.",
+      "C": "Nein, nur Methoden dürfen Berechnungen durchführen.",
+      "D": "Nur abstrakte Klassen dürfen Logik enthalten."
+    },
+    "correct": "A",
+    "explanation": "Konstruktoren können neben Zuweisungen auch Prüfungen und Berechnungen durchführen."
+  },
+  {
+    "question": "Wofür steht \"Getter\"?",
+    "options": {
+      "A": "Eine Methode, die den Wert eines Attributs zurückgibt (liest).",
+      "B": "Eine Methode, die ein neues Objekt erzeugt.",
+      "C": "Eine Methode, die ein Attribut löscht.",
+      "D": "Eine Methode, die eine Klasse vererbt."
+    },
+    "correct": "A",
+    "explanation": "Ein Getter ermöglicht kontrollierten Lesezugriff auf ein gekapseltes Attribut."
+  },
+  {
+    "question": "Wofür steht \"Setter\"?",
+    "options": {
+      "A": "Eine Methode, die einen neuen Wert für ein Attribut entgegennimmt und speichert (schreibt).",
+      "B": "Eine Methode, die nur Werte ausliest.",
+      "C": "Eine Methode zum Erzeugen einer Klasse.",
+      "D": "Eine Methode zum Starten des Programms."
+    },
+    "correct": "A",
+    "explanation": "Ein Setter verändert den Wert eines Attributs und kann dabei zusätzliche Prüfungen durchführen."
+  },
+  {
+    "question": "Warum braucht man Getter/Setter, wenn Attribute private sind?",
+    "options": {
+      "A": "Weil private-Attribute nicht direkt von außen zugreifbar sind — Getter/Setter bieten kontrollierten Zugriff.",
+      "B": "Weil private Attribute automatisch gelöscht werden.",
+      "C": "Weil Java sonst keine Klassen erlaubt.",
+      "D": "Weil Getter und Setter Attribute ersetzen."
+    },
+    "correct": "A",
+    "explanation": "Getter und Setter ermöglichen Zugriff, ohne die Kapselung durch direkte Zugriffe zu verletzen."
+  },
+  {
+    "question": "Wie sieht ein typischer Getter für ein Attribut name aus?",
+    "options": {
+      "A": "public String getName() { return name; }",
+      "B": "public void getName(String name) { }",
+      "C": "private String setName() { return name; }",
+      "D": "public name get() { return String; }"
+    },
+    "correct": "A",
+    "explanation": "Ein Getter besitzt meist den Attributtyp als Rückgabewert und gibt den Wert zurück."
+  },
+  {
+    "question": "Wie sieht ein typischer Setter für ein Attribut name aus?",
+    "options": {
+      "A": "public void setName(String name) { this.name = name; }",
+      "B": "public String setName() { return name; }",
+      "C": "private void getName(String name) { }",
+      "D": "public String name(String value) { }"
+    },
+    "correct": "A",
+    "explanation": "Ein Setter nimmt einen neuen Wert entgegen und weist ihn dem Attribut zu."
+  },
+  {
+    "question": "Hat ein Getter einen Rückgabewert?",
+    "options": {
+      "A": "Ja, üblicherweise den Typ des Attributs, das er zurückgibt.",
+      "B": "Nein, Getter haben immer void.",
+      "C": "Ja, aber immer nur String.",
+      "D": "Nur wenn das Attribut public ist."
+    },
+    "correct": "A",
+    "explanation": "Der Rückgabewert eines Getters entspricht normalerweise dem Datentyp des Attributs."
+  },
+  {
+    "question": "Hat ein Setter einen Rückgabewert?",
+    "options": {
+      "A": "Nein, üblicherweise void.",
+      "B": "Ja, immer den neuen Wert.",
+      "C": "Ja, immer boolean.",
+      "D": "Nur bei privaten Attributen."
+    },
+    "correct": "A",
+    "explanation": "Setter verändern meist nur den Zustand eines Objekts und geben deshalb nichts zurück."
+  },
+  {
+    "question": "Hat ein Setter Parameter?",
+    "options": {
+      "A": "Ja, mindestens einen — den neuen Wert, der gesetzt werden soll.",
+      "B": "Nein, Setter arbeiten immer ohne Parameter.",
+      "C": "Nur Konstruktoren haben Parameter.",
+      "D": "Nur Klassen können Parameter besitzen."
+    },
+    "correct": "A",
+    "explanation": "Der Setter benötigt den neuen Wert, der gespeichert werden soll."
+  },
+  {
+    "question": "Hat ein Getter Parameter?",
+    "options": {
+      "A": "Nein, üblicherweise keine.",
+      "B": "Ja, immer den neuen Attributwert.",
+      "C": "Ja, immer die Klasse des Objekts.",
+      "D": "Nur bei String-Attributen."
+    },
+    "correct": "A",
+    "explanation": "Ein Getter liest nur den vorhandenen Wert und benötigt daher normalerweise keine Eingabe."
+  },
+  {
+    "question": "Was ist der Vorteil, im Setter eine Prüfung einzubauen?",
+    "options": {
+      "A": "Man kann ungültige Werte abfangen, bevor sie im Attribut landen — das schützt die Datenintegrität.",
+      "B": "Man kann dadurch Klassen automatisch erstellen.",
+      "C": "Man verhindert jede Änderung eines Attributs.",
+      "D": "Man ersetzt damit den Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Setter können Regeln prüfen und verhindern, dass Objekte ungültige Zustände erhalten."
+  },
+  {
+    "question": "Wie nennt man das übliche Namensschema für Getter?",
+    "options": {
+      "A": "get + Attributname mit großem Anfangsbuchstaben, z. B. getAlter().",
+      "B": "read + Attributname.",
+      "C": "value + Attributname.",
+      "D": "take + Attributname."
+    },
+    "correct": "A",
+    "explanation": "Java verwendet häufig die Namenskonvention getAttributname für Getter."
+  },
+  {
+    "question": "Wie heißt der Getter für ein boolean-Attribut oft abweichend?",
+    "options": {
+      "A": "ist...() bzw. is...(), z. B. isAktiv().",
+      "B": "has...(), z. B. hasAktiv().",
+      "C": "bool...(), z. B. boolAktiv().",
+      "D": "check...(), z. B. checkAktiv()."
+    },
+    "correct": "A",
+    "explanation": "Für boolean-Werte wird häufig isAttributname statt getAttributname verwendet."
+  },
+  {
+    "question": "Wie nennt man das übliche Namensschema für Setter?",
+    "options": {
+      "A": "set + Attributname mit großem Anfangsbuchstaben, z. B. setAlter(...).",
+      "B": "change + Attributname.",
+      "C": "write + Attributname.",
+      "D": "put + Attributname."
+    },
+    "correct": "A",
+    "explanation": "Setter folgen in Java normalerweise dem Muster setAttributname."
+  },
+  {
+    "question": "Kann man ein Attribut lesbar, aber nicht schreibbar machen?",
+    "options": {
+      "A": "Ja, indem man nur einen Getter, aber keinen Setter anbietet.",
+      "B": "Nein, jedes Attribut benötigt immer beides.",
+      "C": "Nur wenn das Attribut public ist.",
+      "D": "Nur bei primitiven Datentypen."
+    },
+    "correct": "A",
+    "explanation": "Ohne Setter kann ein Wert von außen gelesen, aber nicht verändert werden."
+  },
+  {
+    "question": "Was passiert bei String n = anna.getName();?",
+    "options": {
+      "A": "Der Rückgabewert von getName() wird in der Variable n zwischengespeichert.",
+      "B": "Ein neues Objekt anna wird erzeugt.",
+      "C": "Das Attribut name wird gelöscht.",
+      "D": "Der Getter wird dauerhaft gespeichert."
+    },
+    "correct": "A",
+    "explanation": "Der Getter liefert einen Wert zurück, der anschließend in n gespeichert wird."
+  },
+  {
+    "question": "Muss man den Rückgabewert eines Getters immer in einer Variable speichern?",
+    "options": {
+      "A": "Nein, man kann ihn auch direkt weiterverwenden, z. B. in System.out.println(anna.getName());.",
+      "B": "Ja, sonst funktioniert Java nicht.",
+      "C": "Nur bei String-Werten.",
+      "D": "Nur bei privaten Attributen."
+    },
+    "correct": "A",
+    "explanation": "Rückgabewerte können direkt verwendet oder in Variablen gespeichert werden."
+  },
+  {
+    "question": "Was passiert, wenn man anna.setName(\"Anna-Lena\"); aufruft?",
+    "options": {
+      "A": "Der übergebene String wird im Parameter zwischengespeichert und dann im Attribut name des Objekts abgelegt.",
+      "B": "Ein neues Objekt Anna-Lena wird erstellt.",
+      "C": "Die Klasse Person wird verändert.",
+      "D": "Der Getter wird automatisch aufgerufen."
+    },
+    "correct": "A",
+    "explanation": "Der Setter erhält den neuen Wert und speichert ihn im Objekt."
+  },
+  {
+    "question": "Sind Getter/Setter Pflicht in jeder Java-Klasse?",
+    "options": {
+      "A": "Nein, aber sie sind eine gängige Konvention, um Kapselung sauber umzusetzen.",
+      "B": "Ja, jede Klasse muss genau zwei davon besitzen.",
+      "C": "Ja, sonst kompiliert Java nicht.",
+      "D": "Nein, weil Attribute immer public sein müssen."
+    },
+    "correct": "A",
+    "explanation": "Getter und Setter sind eine Empfehlung, aber keine Pflicht."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen direktem Attributzugriff und Zugriff über Getter/Setter, rein technisch betrachtet?",
+    "options": {
+      "A": "Direkter Zugriff umgeht jegliche Kontrolle, Getter/Setter erlauben zusätzliche Logik (Prüfung, Berechnung) beim Lesen/Schreiben.",
+      "B": "Es gibt technisch keinen Unterschied.",
+      "C": "Getter/Setter speichern Werte automatisch in Datenbanken.",
+      "D": "Direkter Zugriff ist immer sicherer."
+    },
+    "correct": "A",
+    "explanation": "Methoden ermöglichen zusätzliche Verarbeitung und schützen die interne Struktur eines Objekts."
+  },
+  {
+    "question": "Kann ein Getter auch einen berechneten Wert statt eines reinen Attributs zurückgeben?",
+    "options": {
+      "A": "Ja, z. B. getVollerName(), der Vor- und Nachname kombiniert zurückgibt.",
+      "B": "Nein, Getter dürfen nur Attribute direkt zurückgeben.",
+      "C": "Nur Konstruktoren dürfen Werte berechnen.",
+      "D": "Nur statische Methoden können Werte berechnen."
+    },
+    "correct": "A",
+    "explanation": "Ein Getter kann auch Werte berechnen und muss nicht zwingend nur ein einzelnes Attribut zurückgeben."
+  },
+  {
+    "question": "Was ist eine Methode allgemein?",
+    "options": {
+      "A": "Ein benannter, wiederverwendbarer Codeblock, der zu einer Klasse gehört und ein bestimmtes Verhalten ausführt.",
+      "B": "Eine Variable, die den Zustand eines Objekts speichert.",
+      "C": "Eine Datei, die mehrere Klassen enthält.",
+      "D": "Ein Speicherbereich im Heap."
+    },
+    "correct": "A",
+    "explanation": "Methoden beschreiben das Verhalten von Objekten und enthalten ausführbaren Code."
+  },
+  {
+    "question": "Was steht in einer Methodensignatur ganz allgemein?",
+    "options": {
+      "A": "Sichtbarkeit, optional static, Rückgabetyp, Methodenname, Parameterliste in Klammern.",
+      "B": "Nur der Methodenname und der Rückgabewert.",
+      "C": "Nur die Parameter und lokalen Variablen.",
+      "D": "Klassenname, Objektname und Speicheradresse."
+    },
+    "correct": "A",
+    "explanation": "Die Methodensignatur beschreibt wichtige Eigenschaften einer Methode wie Name, Parameter und Rückgabetyp."
+  },
+  {
+    "question": "Welches Schlüsselwort zeigt an, dass eine Methode keinen Rückgabewert hat?",
+    "options": {
+      "A": "void",
+      "B": "null",
+      "C": "empty",
+      "D": "return"
+    },
+    "correct": "A",
+    "explanation": "void bedeutet, dass eine Methode keinen Wert zurückliefert."
+  },
+  {
+    "question": "Muss eine void-Methode ein return enthalten?",
+    "options": {
+      "A": "Nein, nicht zwingend (außer man will die Methode vorzeitig beenden, dann return; ohne Wert).",
+      "B": "Ja, jede Methode braucht return.",
+      "C": "Ja, aber nur mit einem Wert.",
+      "D": "Nein, void-Methoden dürfen niemals return verwenden."
+    },
+    "correct": "A",
+    "explanation": "Eine void-Methode endet normalerweise am Ende des Blocks. return; kann sie vorher beenden."
+  },
+  {
+    "question": "Kann man den \"Rückgabewert\" einer void-Methode einer Variable zuweisen?",
+    "options": {
+      "A": "Nein, das führt zu einem Compilerfehler.",
+      "B": "Ja, void wird automatisch in String umgewandelt.",
+      "C": "Ja, jede Methode liefert intern einen Wert.",
+      "D": "Nur bei privaten Methoden."
+    },
+    "correct": "A",
+    "explanation": "Da void keinen Wert zurückgibt, kann nichts gespeichert werden."
+  },
+  {
+    "question": "Wofür werden void-Methoden typischerweise genutzt?",
+    "options": {
+      "A": "Für Nebeneffekte, z. B. etwas ausgeben oder einen Zustand ändern.",
+      "B": "Nur für mathematische Berechnungen.",
+      "C": "Nur zum Erzeugen neuer Klassen.",
+      "D": "Zum Speichern von Variablen im Heap."
+    },
+    "correct": "A",
+    "explanation": "Void-Methoden führen Aktionen aus, ohne ein Ergebnis zurückzugeben."
+  },
+  {
+    "question": "Was ist ein Parameter?",
+    "options": {
+      "A": "Eine Variable in der Methodensignatur, die beim Aufruf mit einem konkreten Wert befüllt wird.",
+      "B": "Ein Attribut, das zu jedem Objekt gehört.",
+      "C": "Ein anderer Name für eine Klasse.",
+      "D": "Eine Variable außerhalb jeder Methode."
+    },
+    "correct": "A",
+    "explanation": "Parameter ermöglichen es, Methoden mit unterschiedlichen Eingabewerten aufzurufen."
+  },
+  {
+    "question": "Wie lange existiert ein Parameter im Speicher?",
+    "options": {
+      "A": "Nur während die Methode läuft — danach ist er weg.",
+      "B": "Für die gesamte Programmlaufzeit.",
+      "C": "Solange die Klasse existiert.",
+      "D": "Immer dauerhaft im Heap."
+    },
+    "correct": "A",
+    "explanation": "Parameter sind lokale Werte und existieren nur während des Methodenaufrufs."
+  },
+  {
+    "question": "Was bedeutet \"Call by Value\" bei primitiven Typen in Java?",
+    "options": {
+      "A": "Es wird eine Kopie des Wertes an die Methode übergeben, nicht das Original.",
+      "B": "Die Methode erhält direkten Zugriff auf die ursprüngliche Variable.",
+      "C": "Es wird immer eine Referenz übergeben.",
+      "D": "Der Wert wird automatisch global gespeichert."
+    },
+    "correct": "A",
+    "explanation": "Primitive Werte wie int oder boolean werden als Kopie übergeben."
+  },
+  {
+    "question": "Ändert sich der ursprüngliche Wert außerhalb der Methode, wenn man einen primitiven Parameter innerhalb der Methode verändert?",
+    "options": {
+      "A": "Nein, weil nur eine Kopie übergeben wurde.",
+      "B": "Ja, weil Methoden immer Originalwerte ändern.",
+      "C": "Nur bei int-Werten.",
+      "D": "Nur bei public Variablen."
+    },
+    "correct": "A",
+    "explanation": "Die Änderung betrifft nur die lokale Kopie des Parameters."
+  },
+  {
+    "question": "Was macht das Schlüsselwort return in einer Methode mit Rückgabewert?",
+    "options": {
+      "A": "Es beendet die Methode sofort und gibt den angegebenen Wert an die Aufrufstelle zurück.",
+      "B": "Es startet die Methode erneut.",
+      "C": "Es speichert Werte dauerhaft.",
+      "D": "Es erzeugt ein neues Objekt."
+    },
+    "correct": "A",
+    "explanation": "return beendet die Ausführung und liefert ein Ergebnis zurück."
+  },
+  {
+    "question": "Kann nach einem ausgeführten return noch weiterer Code in derselben Methode laufen?",
+    "options": {
+      "A": "Nein, die Methode wird sofort verlassen.",
+      "B": "Ja, der Code wird trotzdem vollständig ausgeführt.",
+      "C": "Nur bei void-Methoden.",
+      "D": "Nur im Debug-Modus."
+    },
+    "correct": "A",
+    "explanation": "Nach return wird die Methode direkt beendet."
+  },
+  {
+    "question": "Wie sieht eine Methode ohne Parameter, ohne Rückgabewert aus (Grundform)?",
+    "options": {
+      "A": "public void methodenName() { ... }",
+      "B": "public methodenName(void) { ... }",
+      "C": "void public methodenName(value) { ... }",
+      "D": "return void methodenName() { ... }"
+    },
+    "correct": "A",
+    "explanation": "Eine parameterlose void-Methode besitzt keine Eingaben und liefert keinen Wert zurück."
+  },
+  {
+    "question": "Wie sieht eine Methode mit Parameter, ohne Rückgabewert aus (Grundform)?",
+    "options": {
+      "A": "public void methodenName(Typ param) { ... }",
+      "B": "public Typ methodenName(void param) { ... }",
+      "C": "public methodenName(Typ) return void { ... }",
+      "D": "void methodenName() return param;"
+    },
+    "correct": "A",
+    "explanation": "Der Parameter steht mit seinem Datentyp in den Klammern hinter dem Methodennamen."
+  },
+  {
+    "question": "Wie sieht eine Methode ohne Parameter, mit Rückgabewert aus (Grundform)?",
+    "options": {
+      "A": "public Typ methodenName() { return wert; }",
+      "B": "public void methodenName() { return wert; }",
+      "C": "public methodenName(Typ) { }",
+      "D": "return public Typ methodenName();"
+    },
+    "correct": "A",
+    "explanation": "Der Rückgabetyp steht vor dem Methodennamen und return liefert den Wert zurück."
+  },
+  {
+    "question": "Wie sieht eine Methode mit Parameter, mit Rückgabewert aus (Grundform)?",
+    "options": {
+      "A": "public Typ methodenName(Typ param) { return wert; }",
+      "B": "public void methodenName(Typ param) { return wert; }",
+      "C": "public Typ methodenName() { param = wert; }",
+      "D": "return Typ methodenName(param);"
+    },
+    "correct": "A",
+    "explanation": "Eine Methode kann Eingaben über Parameter erhalten und ein Ergebnis zurückgeben."
+  },
+  {
+    "question": "Was passiert mit einer lokalen Variablen, die innerhalb einer Methode deklariert wurde, sobald die Methode endet?",
+    "options": {
+      "A": "Sie wird gelöscht/existiert nicht mehr — ihr Speicher auf dem Stack wird freigegeben.",
+      "B": "Sie wird automatisch ein Attribut der Klasse.",
+      "C": "Sie bleibt dauerhaft im Heap gespeichert.",
+      "D": "Sie wird zu einem Parameter."
+    },
+    "correct": "A",
+    "explanation": "Lokale Variablen gehören zum Methodenaufruf und verschwinden nach dessen Ende."
+  },
+  {
+    "question": "Kann eine Methode mehrere Parameter haben?",
+    "options": {
+      "A": "Ja, beliebig viele, getrennt durch Kommas.",
+      "B": "Nein, Methoden dürfen nur einen Parameter besitzen.",
+      "C": "Nur zwei Parameter sind erlaubt.",
+      "D": "Nur Konstruktoren dürfen mehrere Parameter haben."
+    },
+    "correct": "A",
+    "explanation": "Methoden können mehrere Eingabewerte über Parameter erhalten."
+  },
+  {
+    "question": "Kann eine Methode nur einen einzigen Rückgabewert haben?",
+    "options": {
+      "A": "Ja, pro Aufruf wird genau ein Wert zurückgegeben (ggf. ein zusammengesetztes Objekt mit mehreren Werten darin).",
+      "B": "Nein, Methoden können beliebig viele Werte direkt zurückgeben.",
+      "C": "Nur void-Methoden können Werte zurückgeben.",
+      "D": "Nur Konstruktoren dürfen Werte zurückgeben."
+    },
+    "correct": "A",
+    "explanation": "Eine Methode gibt direkt genau einen Wert zurück. Mehrere Werte können beispielsweise in einem Objekt zusammengefasst werden."
+  },
+  {
+    "question": "Was passiert bei int ergebnis = rechner.addiere(3, 4) mit den Werten 3 und 4?",
+    "options": {
+      "A": "Sie werden als Kopien an die Parameter a und b der Methode übergeben.",
+      "B": "Sie verändern dauerhaft die Variablen 3 und 4.",
+      "C": "Sie werden als neue Objekte im Heap gespeichert.",
+      "D": "Sie ersetzen die Klasse Rechner."
+    },
+    "correct": "A",
+    "explanation": "Bei primitiven Werten wie int werden die Werte kopiert und an die Parameter übergeben."
+  },
+  {
+    "question": "Was liegt im Heap?",
+    "options": {
+      "A": "Alle Objekte, die mit new erzeugt wurden, inklusive ihrer Attribute.",
+      "B": "Nur lokale Variablen innerhalb von Methoden.",
+      "C": "Nur Methoden und Klassenbeschreibungen.",
+      "D": "Nur primitive Datentypen wie int und boolean."
+    },
+    "correct": "A",
+    "explanation": "Im Heap werden Objekte gespeichert, die während der Laufzeit erzeugt werden."
+  },
+  {
+    "question": "Was liegt im Stack?",
+    "options": {
+      "A": "Lokale Variablen, Methodenparameter und Referenzen auf Objekte.",
+      "B": "Alle Objekte mit ihren Attributen.",
+      "C": "Nur Klassen und Interfaces.",
+      "D": "Alle Dateien des Programms."
+    },
+    "correct": "A",
+    "explanation": "Der Stack speichert Informationen zu aktuellen Methodenaufrufen, darunter lokale Variablen und Referenzen."
+  },
+  {
+    "question": "Wie lange existiert ein Objekt im Heap?",
+    "options": {
+      "A": "Solange es noch von irgendetwas referenziert wird; danach räumt der Garbage Collector es auf.",
+      "B": "Immer bis das Programm beendet wird.",
+      "C": "Genau eine Sekunde nach der Erstellung.",
+      "D": "Nur während der Methode, in der es erzeugt wurde."
+    },
+    "correct": "A",
+    "explanation": "Nicht mehr erreichbare Objekte können vom Garbage Collector entfernt werden."
+  },
+  {
+    "question": "Wie lange existiert eine lokale Variable auf dem Stack?",
+    "options": {
+      "A": "Nur während der Methodenaufruf läuft, in dem sie deklariert wurde.",
+      "B": "Solange das Programm geöffnet ist.",
+      "C": "Solange das Objekt existiert.",
+      "D": "Für immer nach der ersten Zuweisung."
+    },
+    "correct": "A",
+    "explanation": "Lokale Variablen gehören zu einem Methodenaufruf und verschwinden danach."
+  },
+  {
+    "question": "Was passiert mit dem Stack-Frame, wenn eine Methode fertig ist?",
+    "options": {
+      "A": "Er wird komplett gelöscht, alle darin enthaltenen lokalen Variablen sind weg.",
+      "B": "Er wird in den Heap verschoben.",
+      "C": "Er bleibt bis zum Programmende bestehen.",
+      "D": "Er wird automatisch kopiert."
+    },
+    "correct": "A",
+    "explanation": "Ein Stack-Frame existiert nur während der Ausführung des jeweiligen Methodenaufrufs."
+  },
+  {
+    "question": "Wo liegen Attribute eines Objekts?",
+    "options": {
+      "A": "Im Heap, als Teil des Objekts selbst.",
+      "B": "Im Stack unabhängig vom Objekt.",
+      "C": "Nur im Quellcode.",
+      "D": "Im Compiler."
+    },
+    "correct": "A",
+    "explanation": "Die Attribute gehören zum Objekt und werden zusammen mit ihm im Heap gespeichert."
+  },
+  {
+    "question": "Überleben Attribute einen einzelnen Methodenaufruf?",
+    "options": {
+      "A": "Ja, sie bleiben erhalten, solange das Objekt existiert — über beliebig viele Methodenaufrufe hinweg.",
+      "B": "Nein, Attribute verschwinden nach jeder Methode.",
+      "C": "Nur lokale Variablen bleiben erhalten.",
+      "D": "Nur statische Attribute bleiben erhalten."
+    },
+    "correct": "A",
+    "explanation": "Attribute bilden den Zustand eines Objekts und bleiben unabhängig von einzelnen Methodenaufrufen bestehen."
+  },
+  {
+    "question": "Was ist eine Referenz?",
+    "options": {
+      "A": "Eine Art Adresse, die auf ein Objekt im Heap zeigt.",
+      "B": "Das Objekt selbst mit allen Attributen.",
+      "C": "Eine Methode zum Erzeugen von Objekten.",
+      "D": "Eine Kopie des gesamten Objekts."
+    },
+    "correct": "A",
+    "explanation": "Eine Referenz verweist auf ein Objekt, enthält aber nicht das Objekt selbst."
+  },
+  {
+    "question": "Wo liegt die Referenzvariable selbst, z. B. anna in Person anna = new Person(...)?",
+    "options": {
+      "A": "Auf dem Stack.",
+      "B": "Im Heap als Teil des Objekts.",
+      "C": "Im Compiler.",
+      "D": "In der Klasse Person."
+    },
+    "correct": "A",
+    "explanation": "Die lokale Referenzvariable liegt im Stack und zeigt auf das Objekt im Heap."
+  },
+  {
+    "question": "Wo liegt das eigentliche Objekt, auf das anna zeigt?",
+    "options": {
+      "A": "Auf dem Heap.",
+      "B": "Auf dem Stack.",
+      "C": "Nur im Quellcode.",
+      "D": "Im Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Das Objekt selbst wird im Heap gespeichert."
+  },
+  {
+    "question": "Was passiert beim Aufruf anna.begruesse() mit dem Stack?",
+    "options": {
+      "A": "Ein neuer Stack-Frame für diesen Methodenaufruf wird angelegt.",
+      "B": "Das Objekt wird vom Heap entfernt.",
+      "C": "Die Klasse wird neu kompiliert.",
+      "D": "Alle lokalen Variablen des Programms werden gelöscht."
+    },
+    "correct": "A",
+    "explanation": "Für jeden Methodenaufruf wird ein eigener Bereich auf dem Stack angelegt."
+  },
+  {
+    "question": "Woher liest eine Methode die Attributwerte eines Objekts?",
+    "options": {
+      "A": "Aus dem Heap, über die Referenz auf das Objekt.",
+      "B": "Aus dem Stack-Frame der Methode.",
+      "C": "Aus der Klassendatei.",
+      "D": "Aus dem Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Die Referenz führt zum Objekt im Heap, dort liegen die Attribute."
+  },
+  {
+    "question": "Wird ein Attributwert beim Lesen kopiert oder nur ausgelesen?",
+    "options": {
+      "A": "Er wird nur ausgelesen (z. B. für eine Ausgabe), nicht zwingend kopiert/gespeichert.",
+      "B": "Er wird immer dauerhaft kopiert.",
+      "C": "Er wird automatisch gelöscht.",
+      "D": "Er wird in eine neue Klasse verschoben."
+    },
+    "correct": "A",
+    "explanation": "Ein Lesezugriff verändert den Wert nicht automatisch."
+  },
+  {
+    "question": "Was ist der Garbage Collector?",
+    "options": {
+      "A": "Ein Mechanismus in Java, der nicht mehr referenzierte Objekte automatisch aus dem Heap entfernt.",
+      "B": "Ein Programm zum Übersetzen von Java-Code.",
+      "C": "Eine Methode zum Erzeugen von Objekten.",
+      "D": "Ein Speicherbereich für lokale Variablen."
+    },
+    "correct": "A",
+    "explanation": "Der Garbage Collector verwaltet automatisch Speicher und entfernt nicht mehr benötigte Objekte."
+  },
+  {
+    "question": "Ist ein Rückgabewert automatisch dauerhaft gespeichert?",
+    "options": {
+      "A": "Nein, nur solange bis er der Aufrufstelle zugewiesen oder direkt weiterverwendet wird.",
+      "B": "Ja, jeder Rückgabewert bleibt dauerhaft im Speicher.",
+      "C": "Nur String-Werte bleiben gespeichert.",
+      "D": "Nur primitive Werte bleiben gespeichert."
+    },
+    "correct": "A",
+    "explanation": "Ein Rückgabewert existiert nur im Rahmen der weiteren Verarbeitung."
+  },
+  {
+    "question": "Was passiert, wenn ein Rückgabewert an der Aufrufstelle gar nicht verwendet wird?",
+    "options": {
+      "A": "Er geht verloren, sobald der Ausdruck ausgewertet wurde.",
+      "B": "Er wird automatisch als Variable gespeichert.",
+      "C": "Er wird im Heap abgelegt.",
+      "D": "Er wird an den Konstruktor übergeben."
+    },
+    "correct": "A",
+    "explanation": "Ohne Speicherung oder weitere Verwendung wird das Ergebnis verworfen."
+  },
+  {
+    "question": "In welcher Tabelle-Faustregel steht: \"Solange referenziert (Garbage Collector)\"?",
+    "options": {
+      "A": "Bei der Zeile \"Heap\" in der Übersichtstabelle zu Speicherorten.",
+      "B": "Bei der Zeile \"Stack\".",
+      "C": "Bei der Zeile \"Methoden\".",
+      "D": "Bei der Zeile \"Compiler\"."
+    },
+    "correct": "A",
+    "explanation": "Die Lebensdauer von Heap-Objekten hängt von vorhandenen Referenzen ab."
+  },
+  {
+    "question": "Warum ist es wichtig zu wissen, dass lokale Variablen nach der Methode weg sind?",
+    "options": {
+      "A": "Um zu verstehen, dass man Zustand, der erhalten bleiben soll, in Attributen speichern muss, nicht in lokalen Variablen.",
+      "B": "Damit man keine Methoden mehr verwendet.",
+      "C": "Damit alle Variablen global werden.",
+      "D": "Damit Objekte nicht mehr erzeugt werden."
+    },
+    "correct": "A",
+    "explanation": "Dauerhafte Daten gehören zum Objektzustand und damit zu Attributen."
+  },
+  {
+    "question": "Was zeigt an, dass zwei Variablen auf dasselbe Objekt im Heap verweisen?",
+    "options": {
+      "A": "Beide Referenzen enthalten dieselbe Adresse; Änderungen über eine sind auch über die andere sichtbar.",
+      "B": "Beide Variablen haben immer denselben Namen.",
+      "C": "Beide Objekte besitzen unterschiedliche Speicherbereiche.",
+      "D": "Beide Klassen werden automatisch verbunden."
+    },
+    "correct": "A",
+    "explanation": "Mehrere Referenzen können auf dasselbe Objekt zeigen."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen einer Referenz und dem Objekt, auf das sie zeigt?",
+    "options": {
+      "A": "Die Referenz ist nur die \"Adresse\" auf dem Stack, das Objekt mit seinem Zustand liegt separat im Heap.",
+      "B": "Referenz und Objekt sind immer dasselbe.",
+      "C": "Das Objekt liegt im Stack und die Referenz im Heap.",
+      "D": "Eine Referenz enthält alle Attribute des Objekts."
+    },
+    "correct": "A",
+    "explanation": "Die Trennung zwischen Referenz und Objekt ist ein wichtiges Grundkonzept in Java."
+  },
+  {
+    "question": "Was passiert bei new Konto(\"Bernd\", 100.0) zuerst?",
+    "options": {
+      "A": "Ein Objekt wird im Heap erzeugt, der Konstruktor setzt inhaber = \"Bernd\" und kontostand = 100.0.",
+      "B": "Eine neue Klasse Konto wird während der Laufzeit erstellt.",
+      "C": "Nur eine Variable wird angelegt, aber kein Objekt erzeugt.",
+      "D": "Der Garbage Collector entfernt alte Konten."
+    },
+    "correct": "A",
+    "explanation": "Mit new wird Speicher für ein neues Objekt reserviert und anschließend der Konstruktor ausgeführt."
+  },
+  {
+    "question": "Wo wird die Referenz auf das neue Konto-Objekt gespeichert?",
+    "options": {
+      "A": "In der Variable meinKonto auf dem Stack.",
+      "B": "Direkt im Objekt im Heap.",
+      "C": "In der Klassendatei Konto.class.",
+      "D": "Im Konstruktor."
+    },
+    "correct": "A",
+    "explanation": "Die lokale Referenzvariable liegt auf dem Stack und zeigt auf das Objekt im Heap."
+  },
+  {
+    "question": "Was macht meinKonto.einzahlen(50.0)?",
+    "options": {
+      "A": "Der Parameter betrag wird lokal auf 50.0 gesetzt, dann wird kontostand um diesen Betrag erhöht.",
+      "B": "Es wird ein zweites Konto mit 50.0 Euro erzeugt.",
+      "C": "Der Kontostand wird nur ausgegeben.",
+      "D": "Das Objekt wird durch ein neues ersetzt."
+    },
+    "correct": "A",
+    "explanation": "Die Methode erhält den Wert als Parameter und verändert anschließend das Attribut des Objekts."
+  },
+  {
+    "question": "Woher liest einzahlen() den aktuellen Kontostand?",
+    "options": {
+      "A": "Aus dem Attribut kontostand des Objekts im Heap.",
+      "B": "Aus dem Parameter betrag.",
+      "C": "Aus der main-Methode.",
+      "D": "Aus dem Klassennamen Konto."
+    },
+    "correct": "A",
+    "explanation": "Methoden greifen über die Referenz auf die Attribute des Objekts zu."
+  },
+  {
+    "question": "Hat einzahlen() einen Rückgabewert?",
+    "options": {
+      "A": "Nein, sie ist als void deklariert.",
+      "B": "Ja, sie gibt immer den neuen Kontostand zurück.",
+      "C": "Ja, sie gibt true oder false zurück.",
+      "D": "Ja, sie gibt das Konto-Objekt zurück."
+    },
+    "correct": "A",
+    "explanation": "Eine void-Methode führt eine Aktion aus, liefert aber keinen Wert zurück."
+  },
+  {
+    "question": "Was prüft abheben(double betrag) als Erstes?",
+    "options": {
+      "A": "Ob betrag > kontostand ist, also ob nicht genug Geld vorhanden ist.",
+      "B": "Ob der Kontoinhaber existiert.",
+      "C": "Ob ein neues Konto erzeugt werden muss.",
+      "D": "Ob der Garbage Collector läuft."
+    },
+    "correct": "A",
+    "explanation": "Vor einer Abbuchung muss geprüft werden, ob der Kontostand ausreicht."
+  },
+  {
+    "question": "Was gibt abheben() zurück, wenn nicht genug Geld vorhanden ist?",
+    "options": {
+      "A": "false",
+      "B": "true",
+      "C": "null",
+      "D": "0.0"
+    },
+    "correct": "A",
+    "explanation": "Ein boolean-Rückgabewert kann anzeigen, ob die Aktion erfolgreich war."
+  },
+  {
+    "question": "Was gibt abheben() zurück, wenn genug Geld vorhanden ist?",
+    "options": {
+      "A": "true, nachdem der Kontostand reduziert wurde.",
+      "B": "false, nachdem das Geld abgezogen wurde.",
+      "C": "Den neuen Kontostand als double.",
+      "D": "Das Konto-Objekt."
+    },
+    "correct": "A",
+    "explanation": "Bei erfolgreicher Abhebung wird der Zustand geändert und Erfolg gemeldet."
+  },
+  {
+    "question": "Wo wird der Rückgabewert von abheben(30.0) im Beispiel gespeichert?",
+    "options": {
+      "A": "In der lokalen Variable erfolgreich in main.",
+      "B": "Im Attribut kontostand.",
+      "C": "Im Konstruktor des Kontos.",
+      "D": "Im Heap als neues Objekt."
+    },
+    "correct": "A",
+    "explanation": "Die aufrufende Stelle entscheidet, ob und wo ein Rückgabewert gespeichert wird."
+  },
+  {
+    "question": "Ändert abheben() den Kontostand im Objekt dauerhaft?",
+    "options": {
+      "A": "Ja, sofern genug Geld vorhanden war — die Änderung bleibt im Attribut erhalten.",
+      "B": "Nein, Änderungen innerhalb einer Methode sind immer verloren.",
+      "C": "Nur bis die Methode endet.",
+      "D": "Nur wenn der Wert lokal gespeichert wird."
+    },
+    "correct": "A",
+    "explanation": "Attribute gehören zum Objekt und bleiben nach dem Methodenaufruf erhalten."
+  },
+  {
+    "question": "Was macht getKontostand()?",
+    "options": {
+      "A": "Sie liest das aktuelle Attribut kontostand aus und gibt es zurück.",
+      "B": "Sie verändert den Kontostand.",
+      "C": "Sie erzeugt ein neues Konto.",
+      "D": "Sie löscht das Konto."
+    },
+    "correct": "A",
+    "explanation": "Ein Getter ermöglicht den kontrollierten Zugriff auf einen Attributwert."
+  },
+  {
+    "question": "Wird der Rückgabewert von getKontostand() im Beispiel zwischengespeichert?",
+    "options": {
+      "A": "Nein, er wird direkt in System.out.println(...) weiterverwendet.",
+      "B": "Ja, automatisch in einer Variable.",
+      "C": "Ja, immer im Heap.",
+      "D": "Nein, weil Getter keinen Wert liefern."
+    },
+    "correct": "A",
+    "explanation": "Ein Rückgabewert kann direkt verwendet werden, ohne vorher gespeichert zu werden."
+  },
+  {
+    "question": "Wie viel beträgt der Kontostand nach einzahlen(50.0) ausgehend von 100.0?",
+    "options": {
+      "A": "150.0",
+      "B": "50.0",
+      "C": "100.0",
+      "D": "500.0"
+    },
+    "correct": "A",
+    "explanation": "Der vorhandene Wert 100.0 wird um 50.0 erhöht."
+  },
+  {
+    "question": "Wie viel beträgt der Kontostand nach zusätzlichem abheben(30.0) ausgehend von 150.0?",
+    "options": {
+      "A": "120.0",
+      "B": "180.0",
+      "C": "30.0",
+      "D": "150.0"
+    },
+    "correct": "A",
+    "explanation": "Nach der Einzahlung werden 30.0 vom Kontostand abgezogen."
+  },
+  {
+    "question": "Was wird am Ende des Beispiels ausgegeben für \"Erfolgreich?\"?",
+    "options": {
+      "A": "Erfolgreich? true",
+      "B": "Erfolgreich? false",
+      "C": "Erfolgreich? 120.0",
+      "D": "Erfolgreich? null"
+    },
+    "correct": "A",
+    "explanation": "Die Abhebung war möglich, deshalb liefert die Methode true zurück."
+  },
+  {
+    "question": "Was wird am Ende des Beispiels ausgegeben für \"Kontostand:\"?",
+    "options": {
+      "A": "Kontostand: 120.0",
+      "B": "Kontostand: 150.0",
+      "C": "Kontostand: 100.0",
+      "D": "Kontostand: 30.0"
+    },
+    "correct": "A",
+    "explanation": "Nach Einzahlung und Abhebung bleibt ein Kontostand von 120.0."
+  },
+  {
+    "question": "Was ist die \"Brücke\", über die eine Methode ihr Ergebnis nach draußen reicht?",
+    "options": {
+      "A": "Der return-Wert.",
+      "B": "Der Konstruktor.",
+      "C": "Das Attribut private.",
+      "D": "Der Klassenname."
+    },
+    "correct": "A",
+    "explanation": "return übergibt ein Ergebnis von einer Methode zurück an die Aufrufstelle."
+  },
+  {
+    "question": "Wer entscheidet, was mit einem Rückgabewert passiert (speichern, weiterverwenden, ignorieren)?",
+    "options": {
+      "A": "Die Aufrufstelle, also der Code, der die Methode aufgerufen hat.",
+      "B": "Der Garbage Collector.",
+      "C": "Der Konstruktor.",
+      "D": "Die Klasse automatisch."
+    },
+    "correct": "A",
+    "explanation": "Der Aufrufer bestimmt, wie ein zurückgegebener Wert genutzt wird."
+  },
+  {
+    "question": "Warum überlebt der Kontostand mehrere Methodenaufrufe, obwohl betrag in jeder Methode neu und lokal ist?",
+    "options": {
+      "A": "Weil kontostand ein Attribut des Objekts ist (im Heap), während betrag nur ein flüchtiger Parameter (im Stack) ist.",
+      "B": "Weil Parameter automatisch gespeichert werden.",
+      "C": "Weil Methodenwerte immer dauerhaft bleiben.",
+      "D": "Weil der Stack größer als der Heap ist."
+    },
+    "correct": "A",
+    "explanation": "Objektattribute bleiben erhalten, solange das Objekt existiert. Lokale Parameter verschwinden nach dem Methodenaufruf."
+  },
+  {
+    "question": "Was ist der Kernunterschied zwischen kontostand und betrag in Bezug auf ihre Lebensdauer?",
+    "options": {
+      "A": "kontostand lebt so lange wie das Objekt, betrag existiert nur während des jeweiligen Methodenaufrufs.",
+      "B": "Beide existieren nur während einer Methode.",
+      "C": "betrag lebt länger als das Objekt.",
+      "D": "Beide liegen dauerhaft im Heap."
+    },
+    "correct": "A",
+    "explanation": "Attribute gehören zum Objektzustand, Parameter gehören nur zu einem einzelnen Methodenaufruf."
+  },
+ {
+    "question": "Was bedeutet \"Kapselung\" (engl. Encapsulation)?",
+    "options": {
+      "A": "Das Prinzip, die inneren Daten eines Objekts vor direktem Zugriff von außen zu schützen und nur kontrollierten Zugang über definierte Methoden zu erlauben.",
+      "B": "Das Prinzip, mehrere Klassen automatisch miteinander zu verbinden.",
+      "C": "Das Erzeugen möglichst vieler Objekte aus einer Klasse.",
+      "D": "Das Kopieren von Methoden aus einer anderen Klasse."
+    },
+    "correct": "A",
+    "explanation": "Kapselung schützt den internen Zustand eines Objekts und ermöglicht kontrollierten Zugriff."
+  },
+  {
+    "question": "Was bedeutet \"Attribute\" in diesem Zusammenhang?",
+    "options": {
+      "A": "Die Datenfelder einer Klasse, die den Zustand eines Objekts speichern (z. B. name, alter).",
+      "B": "Die Methoden, die das Verhalten eines Objekts beschreiben.",
+      "C": "Die Dateien, aus denen ein Programm besteht.",
+      "D": "Die Klassen, von denen geerbt wird."
+    },
+    "correct": "A",
+    "explanation": "Attribute speichern die Daten und den Zustand eines Objekts."
+  },
+  {
+    "question": "Was bedeutet \"versteckt\" (im Kontext \"Attribute werden versteckt\")?",
+    "options": {
+      "A": "Dass die Attribute von außerhalb der Klasse nicht direkt sichtbar/erreichbar sind — sie sind nur innerhalb der eigenen Klasse zugänglich.",
+      "B": "Dass Attribute gelöscht werden, sobald ein Objekt erzeugt wird.",
+      "C": "Dass Attribute keinen Wert besitzen dürfen.",
+      "D": "Dass Attribute nur im Konstruktor existieren."
+    },
+    "correct": "A",
+    "explanation": "Private Attribute sind nach außen verborgen und können kontrolliert über Methoden genutzt werden."
+  },
+  {
+    "question": "Was bedeutet das Schlüsselwort \"private\"?",
+    "options": {
+      "A": "Ein Sichtbarkeitsmodifikator in Java, der festlegt, dass ein Attribut oder eine Methode nur innerhalb der eigenen Klasse verwendet werden darf.",
+      "B": "Ein Schlüsselwort, das eine Methode automatisch statisch macht.",
+      "C": "Ein Schlüsselwort, das Vererbung verhindert.",
+      "D": "Ein Schlüsselwort zum Erzeugen neuer Objekte."
+    },
+    "correct": "A",
+    "explanation": "private schränkt den direkten Zugriff auf Klassenmitglieder ein."
+  },
+  {
+    "question": "Was bedeutet \"Zugriff\" im Satz \"Zugriff nur über Methoden\"?",
+    "options": {
+      "A": "Das Lesen oder Verändern eines Attributwerts — hier ist gemeint, dass dies ausschließlich über Methodenaufrufe geschehen darf, nicht direkt.",
+      "B": "Das Starten einer Java-Anwendung.",
+      "C": "Das Erzeugen eines neuen Objekts.",
+      "D": "Das Speichern einer Klasse auf der Festplatte."
+    },
+    "correct": "A",
+    "explanation": "Zugriff bedeutet, Daten eines Objekts zu lesen oder zu verändern."
+  },
+  {
+    "question": "Was bedeutet \"Methoden\" allgemein?",
+    "options": {
+      "A": "Benannte Codeblöcke innerhalb einer Klasse, die ein bestimmtes Verhalten ausführen und von außen aufgerufen werden können.",
+      "B": "Speicherbereiche, in denen Attribute liegen.",
+      "C": "Alternative Namen für Klassen.",
+      "D": "Nur Variablen innerhalb einer Methode."
+    },
+    "correct": "A",
+    "explanation": "Methoden definieren, welche Aktionen ein Objekt ausführen kann."
+  },
+  {
+    "question": "Was ist ein \"Getter\" genau?",
+    "options": {
+      "A": "Eine Methode, deren einzige Aufgabe es ist, den aktuellen Wert eines (meist privaten) Attributs zurückzugeben, ohne ihn zu verändern.",
+      "B": "Eine Methode, die neue Objekte erzeugt.",
+      "C": "Eine Methode, die Attribute automatisch löscht.",
+      "D": "Eine Methode, die Klassen voneinander trennt."
+    },
+    "correct": "A",
+    "explanation": "Getter bieten kontrollierten Lesezugriff auf Attribute."
+  },
+  {
+    "question": "Was ist ein \"Setter\" genau?",
+    "options": {
+      "A": "Eine Methode, deren Aufgabe es ist, einen neuen Wert entgegenzunehmen und ihn — ggf. nach einer Prüfung — in einem Attribut zu speichern.",
+      "B": "Eine Methode, die nur Werte ausliest.",
+      "C": "Eine Methode ohne Parameter und Rückgabewert.",
+      "D": "Eine Methode, die nur Konstruktoren aufruft."
+    },
+    "correct": "A",
+    "explanation": "Setter verändern Objektzustände und können dabei Werte prüfen."
+  },
+  {
+    "question": "Was bedeutet \"Vererbung\" (engl. Inheritance)?",
+    "options": {
+      "A": "Das Prinzip, dass eine Klasse (Unterklasse) die Attribute und Methoden einer anderen Klasse (Oberklasse) übernimmt und dadurch wiederverwenden kann.",
+      "B": "Das Kopieren eines Objekts in den Speicher.",
+      "C": "Das Verstecken von Attributen.",
+      "D": "Das Ersetzen aller Methoden einer Klasse."
+    },
+    "correct": "A",
+    "explanation": "Vererbung ermöglicht Wiederverwendung von bestehendem Code zwischen Klassen."
+  },
+  {
+    "question": "Was bedeutet \"Klasse\" in \"eine Klasse kann ... übernehmen\"?",
+    "options": {
+      "A": "Ein Bauplan, der Attribute und Methoden definiert — hier konkret die Unterklasse, die von einer anderen Klasse erbt.",
+      "B": "Ein einzelnes erzeugtes Objekt im Speicher.",
+      "C": "Eine lokale Variable innerhalb einer Methode.",
+      "D": "Eine Methode ohne Rückgabewert."
+    },
+    "correct": "A",
+    "explanation": "Eine Klasse beschreibt den Aufbau und das Verhalten von Objekten."
+  },
+  {
+    "question": "Was bedeutet \"Eigenschaften\" in diesem Kontext?",
+    "options": {
+      "A": "Ein umgangssprachliches Synonym für Attribute — die Daten, die ein Objekt beschreiben.",
+      "B": "Die Methoden, die ein Objekt ausführt.",
+      "C": "Die Speicheradressen eines Objekts.",
+      "D": "Die Sichtbarkeit einer Klasse."
+    },
+    "correct": "A",
+    "explanation": "Eigenschaften beschreiben den Zustand eines Objekts und entsprechen meist Attributen."
+  },
+  {
+    "question": "Was bedeutet \"übernehmen\" im Satz \"kann Eigenschaften/Methoden einer anderen übernehmen\"?",
+    "options": {
+      "A": "Dass die erbende Klasse automatisch Zugriff auf die Attribute und Methoden der Oberklasse bekommt, ohne sie erneut selbst schreiben zu müssen.",
+      "B": "Dass alle Objekte der Oberklasse gelöscht werden.",
+      "C": "Dass die Oberklasse automatisch umbenannt wird.",
+      "D": "Dass nur die Attribute kopiert werden."
+    },
+    "correct": "A",
+    "explanation": "Die Unterklasse kann geerbte Bestandteile wiederverwenden."
+  },
+  {
+    "question": "Was bedeutet das Schlüsselwort \"extends\"?",
+    "options": {
+      "A": "Das Java-Schlüsselwort, mit dem eine Klasse angibt, dass sie von einer anderen Klasse erbt, z. B. class Hund extends Tier.",
+      "B": "Ein Schlüsselwort zum Erzeugen eines Objekts.",
+      "C": "Ein Schlüsselwort für private Attribute.",
+      "D": "Ein Schlüsselwort zum Überschreiben von Variablen."
+    },
+    "correct": "A",
+    "explanation": "extends stellt in Java eine Vererbungsbeziehung zwischen Klassen her."
+  },
+  {
+    "question": "Wie nennt man die Klasse, von der geerbt wird?",
+    "options": {
+      "A": "Oberklasse (auch: Basisklasse, Elternklasse, Superklasse).",
+      "B": "Unterklasse.",
+      "C": "Instanzklasse.",
+      "D": "Hilfsklasse."
+    },
+    "correct": "A",
+    "explanation": "Die Oberklasse stellt gemeinsame Eigenschaften für Unterklassen bereit."
+  },
+  {
+    "question": "Wie nennt man die Klasse, die erbt?",
+    "options": {
+      "A": "Unterklasse (auch: abgeleitete Klasse, Kindklasse, Subklasse).",
+      "B": "Oberklasse.",
+      "C": "Basismethode.",
+      "D": "Konstruktor-Klasse."
+    },
+    "correct": "A",
+    "explanation": "Die Unterklasse erhält Eigenschaften und Verhalten der Oberklasse."
+  },
+  {
+    "question": "Was bedeutet \"Polymorphie\" (engl. Polymorphism)?",
+    "options": {
+      "A": "Wörtlich \"Vielgestaltigkeit\" — das Prinzip, dass Objekte unterschiedlicher Klassen auf denselben Methodenaufruf jeweils unterschiedlich reagieren können, obwohl sie einheitlich behandelt werden.",
+      "B": "Das Prinzip, dass eine Klasse nur ein Objekt besitzen darf.",
+      "C": "Das Verstecken aller Methoden einer Klasse.",
+      "D": "Das Ersetzen von Klassen durch Variablen."
+    },
+    "correct": "A",
+    "explanation": "Polymorphie ermöglicht flexiblen Code durch gemeinsame Schnittstellen."
+  },
+  {
+    "question": "Was bedeutet \"Objekte unterschiedlicher Klassen\"?",
+    "options": {
+      "A": "Konkrete Instanzen, die aus verschiedenen Klassenbauplänen erzeugt wurden (z. B. ein Hund-Objekt und ein Katze-Objekt).",
+      "B": "Mehrere Variablen derselben Klasse.",
+      "C": "Klassen ohne Attribute.",
+      "D": "Methoden mit gleichem Namen."
+    },
+    "correct": "A",
+    "explanation": "Objekte können unterschiedliche Klassen besitzen und trotzdem gemeinsame Eigenschaften nutzen."
+  },
+  {
+    "question": "Was bedeutet \"gemeinsame Schnittstelle\"?",
+    "options": {
+      "A": "Ein von mehreren Klassen geteilter Satz an Methoden(-namen), über den man mit unterschiedlichen Objekten auf dieselbe Art kommunizieren kann.",
+      "B": "Eine grafische Oberfläche eines Programms.",
+      "C": "Ein Speicherbereich für Attribute.",
+      "D": "Eine Methode ohne Code."
+    },
+    "correct": "A",
+    "explanation": "Eine Schnittstelle beschreibt, welche Funktionen nach außen angeboten werden."
+  },
+  {
+    "question": "Was bedeutet \"Schnittstelle\" (allgemeiner)?",
+    "options": {
+      "A": "Eine definierte Menge an Methoden, die eine Klasse nach außen anbietet, ohne die interne Umsetzung offenzulegen.",
+      "B": "Ein direkter Zugriff auf alle Attribute.",
+      "C": "Eine Kopie einer Klasse.",
+      "D": "Eine Variable im Stack."
+    },
+    "correct": "A",
+    "explanation": "Schnittstellen trennen die Nutzung eines Objekts von seiner internen Umsetzung."
+  },
+  {
+    "question": "Was bedeutet \"einheitlich behandelt werden\"?",
+    "options": {
+      "A": "Dass man verschiedene Objekttypen im selben Code auf dieselbe Weise aufrufen kann, auch wenn jedes Objekt intern anders reagiert.",
+      "B": "Dass alle Objekte exakt dieselben Attribute besitzen.",
+      "C": "Dass alle Klassen denselben Namen haben.",
+      "D": "Dass alle Methoden identischen Code enthalten."
+    },
+    "correct": "A",
+    "explanation": "Polymorphie erlaubt gleiche Aufrufe mit unterschiedlichem Verhalten."
+  },
+  {
+    "question": "Was bedeutet \"behandeln\" im Sinne von \"Objekte behandeln\"?",
+    "options": {
+      "A": "Mit Objekten über ihre Methoden zu interagieren bzw. sie im Code zu verwenden.",
+      "B": "Objekte aus dem Speicher zu löschen.",
+      "C": "Klassen umzubenennen.",
+      "D": "Attribute zu verstecken."
+    },
+    "correct": "A",
+    "explanation": "Objekte werden im Programm über ihre angebotenen Methoden genutzt."
+  }
+]
+
